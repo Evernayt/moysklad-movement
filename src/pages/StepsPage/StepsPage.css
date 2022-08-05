@@ -1,0 +1,38 @@
+.steps-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+
+.steps-page-loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.steps-card-header-text {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.steps-card-body {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+}
+
+.steps-page-controls {
+  display: flex;
+  margin-top: 16px;
+  gap: 8px;
+}

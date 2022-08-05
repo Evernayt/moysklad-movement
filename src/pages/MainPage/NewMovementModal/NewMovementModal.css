@@ -1,0 +1,8 @@
+.new-movement-modal-message {
+  white-space: pre-line;
+}
+
+.new-movement-modal-controls {
+  display: flex;
+  margin-top: 24px;
+}

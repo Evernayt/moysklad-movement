@@ -1,0 +1,26 @@
+.main-page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+}
+
+.main-page-center {
+  height: calc(100vh - 104px);
+  width: 100%;
+}
+
+.main-page-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+.main-page-table-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}

@@ -1,0 +1,40 @@
+.product-info {
+  background-color: white;
+  padding: 20px;
+  height: 50%;
+  min-height: 350px;
+  width: calc(100% - 40px);
+  position: fixed;
+  z-index: 999;
+  bottom: -100%;
+  transition: bottom 0.5s;
+  box-shadow: 0px -1px 20px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.product-info.active {
+  bottom: 0;
+  transition: bottom 0.5s;
+}
+
+.product-info-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-info-name {
+  font-size: 24px;
+}
+
+.product-info-container {
+  display: flex;
+  
+}
+
+.product-info-column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+

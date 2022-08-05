@@ -1,0 +1,61 @@
+.button-default,
+.button-primary,
+.button-primary-deemphasized,
+.button-danger {
+  min-height: 36px;
+  width: 100%;
+  color: var(--primary-text-color);
+  padding: 0 12px;
+  font-weight: 500;
+  border: 0;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.button-default {
+  background-color: var(--secondary-color);
+}
+
+.button-default:hover {
+  background-color: var(--hover-secondary-color);
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+}
+
+.button-primary:hover {
+  background-color: var(--hover-primary-color);
+}
+
+.button-primary-deemphasized {
+  background-color: var(--primary-deemphasized-color);
+}
+
+.button-primary-deemphasized:hover {
+  background-color: var(--hover-primary-deemphasized-color);
+}
+
+.button-danger {
+  background-color: var(--danger-color);
+}
+
+.button-danger:hover {
+  background-color: var(--hover-danger-color);
+}
+
+.button-default:active,
+.button-primary:active,
+.button-primary-deemphasized:active,
+.button-danger:active {
+  transform: scale(0.98);
+}
+
+.button-default:disabled,
+.button-primary:disabled,
+.button-primary-deemphasized:disabled,
+.button-danger:disabled {
+  background-color: var(--disabled-background);
+  color: var(--disabled-text);
+  cursor: no-drop;
+}

@@ -1,0 +1,13 @@
+.file-uploader-img {
+  max-height: 24px;
+  max-width: 24px;
+  pointer-events: none;
+  margin-right: 8px;
+}
+
+.file-uploader-text {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

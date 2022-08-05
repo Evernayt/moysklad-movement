@@ -1,0 +1,39 @@
+.modal-container {
+  position: absolute;
+  z-index: 99999;
+  height: 100%;
+  width: 100%;
+  background-color: var(--overlay-alpha-80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-form-container {
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px var(--shadow-1);
+  box-shadow: 0 12px 28px var(--shadow-2);
+  margin: 24px;
+}
+
+.modal-form-header {
+  padding: 12px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-form-header-title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.modal-form-header-close-btn {
+  height: 36px;
+  width: 36px;
+  padding-left: 1px;
+}
+
+.modal-form {
+  padding: 16px;
+}

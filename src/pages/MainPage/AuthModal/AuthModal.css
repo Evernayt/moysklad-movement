@@ -1,0 +1,9 @@
+.auth-modal-controls {
+  display: flex;
+}
+
+.auth-modal-error {
+  margin-top: 24px;
+  color: var(--danger-color);
+  font-weight: 500;
+}

@@ -1,0 +1,31 @@
+.product-search {
+  background-color: white;
+  padding: 20px;
+  height: 50%;
+  min-height: 350px;
+  width: calc(100% - 40px);
+  position: fixed;
+  z-index: 999;
+  bottom: -100%;
+  transition: bottom 0.5s;
+  box-shadow: 0px -1px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product-search.active {
+  bottom: 0;
+  transition: bottom 0.5s;
+}
+
+.product-search-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.product-search-container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+}

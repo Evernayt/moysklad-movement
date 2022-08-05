@@ -1,0 +1,68 @@
+.select-btn-container {
+  display: inline-block;
+  position: relative;
+  font-weight: 500;
+}
+
+.select-btn {
+  background-color: var(--secondary-color);
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.select-btn-disabled {
+  background-color: var(--disabled-background);
+  color: var(--disabled-text);
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  cursor: no-drop;
+}
+
+.select-btn:hover {
+  background-color: var(--hover-secondary-color);
+}
+
+.select-btn-input {
+  display: none;
+}
+
+.select-btn-menu {
+  position: absolute;
+  top: 100%;
+  border-radius: var(--border-radius);
+  padding: 8px;
+  margin-top: 12px;
+  box-shadow: 0 12px 28px 0 var(--shadow-2), 0 2px 4px 0 var(--shadow-1);
+  background-color: var(--card-background);
+  list-style-type: none;
+  z-index: 9999;
+}
+
+.select-btn-menu li {
+  display: flex;
+  align-items: center;
+}
+
+.select-btn-item {
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  width: 100%;
+  cursor: default;
+}
+
+.select-btn-container .select-btn-input:not(:checked) + .select-btn-item:hover {
+  background-color: var(--hover-card-color);
+  cursor: pointer;
+}
+
+.select-btn-container .select-btn-input:checked + .select-btn-item {
+  background-color: var(--primary-deemphasized-color);
+}
+
+.select-btn:active,
+.select-btn-item:active {
+  transform: scale(0.98);
+}

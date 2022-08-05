@@ -1,0 +1,18 @@
+.table-section {
+  border-spacing: 0;
+}
+
+.table-column {
+  padding: 16px;
+  border-top: 1px solid #eeede8;
+  border-bottom: 1px solid #eeede8;
+  color: var(--secondary-text-on-bg-color);
+  text-align: left;
+  cursor: default;
+  white-space: nowrap;
+}
+
+.table-cell {
+  padding: 16px;
+  border-bottom: 1px solid #eeede8;
+}
